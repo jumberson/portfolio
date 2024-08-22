@@ -12,3 +12,112 @@
     color: #dcdbd7;
     transition: .25s;
 }
+
+/*hero*/
+
+.AspectRatioBox {
+    padding-left: calc(1.5 / 1 * 25%);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin-bottom: 5rem;
+}
+.rotate {
+    border: 5px solid white;
+    rotate: 8deg;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+#hero {
+    background-image: url(./images/portfolio-background.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+@media (min-width: 993px) {
+    #hero {
+        min-height: 514px;
+        height: 100vh;
+    
+    }
+    
+}
+
+
+
+.hero-hed {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+
+h5 {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+
+@media (max-width: 992px) {
+    #hero {
+        max-height: 420px;
+    }
+    .AspectRatioBox {
+        padding-left: calc(1.5 / 1 * 25%);
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+    }
+
+    .rotate {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        rotate: none;
+
+    }
+    h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    h5 {
+        font-size: 1.25rem;
+        left: 1.675rem;
+    }
+    .hero-hed {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 720px) {
+    #hero {
+        max-height: 360px;
+    }
+    .AspectRatioBox {
+        padding-left: calc(1.5 / 1 * 25%);
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+    }
+    h5 {
+        font-size: 1.1rem;
+        left: 1.25rem;
+    }
+
+    
+
+}
+
+@media (max-width: 576px) {
+    #hero {
+        height: 280px;
+    }
+    
+}
