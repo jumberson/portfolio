@@ -226,3 +226,23 @@ i.icon {
 a .thumbnail-previews {
     margin: 0;
 }
+
+p small a {
+    text-decoration: none;
+    color: #333;
+}
+
+p small a:hover {
+    color: #000;
+}
+
+.footer-items {
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: #333;
+}
+
+.footer-items:hover {
+    color: #000;
+    transition: .25s;
+}
