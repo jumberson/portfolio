@@ -153,8 +153,76 @@ i.icon {
         line-height: 2.5rem;
         margin-top: 1.5rem;
     }
-    #skills {
-        padding-bottom: 3rem;
-    }
+
     
+}
+
+/*porfolio section*/
+#portfolio {
+    background-color: darkgray;
+    margin-top: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.thumbnail-previews {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.img-card.airbnb {
+    background-image: url(./images/thumb-airbnbnews-bw.jpg);
+    padding-top: calc(4 / 4.5 * 100%);
+    background-size: cover;
+    background-position: top center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-card.airbnb:hover {
+    background-image: url(./images/thumb-airbnbnews.jpg);
+    transition: .25s;
+}
+
+.thumbnail-previews.col-10 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.thumb-content {
+    padding: 2rem;
+    color: #333;
+    padding-bottom: auto;
+}
+
+.img-card.newsweek {
+    background-image: url(./images/thumb-newsweek-bw.jpg);
+    padding-top: calc(4 / 4.5 * 100%);
+    background-size: cover;
+    background-position: top center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-card.newsweek:hover {
+    background-image: url(./images/thumb-newsweek.jpg);
+    transition: .25s;
+}
+.img-card.apple {
+    background-image: url(./images/thumb-apple-bw.jpg);
+    padding-top: calc(4 / 4.5 * 100%);
+    background-size: cover;
+    background-position: top center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-card.apple:hover {
+    background-image: url(./images/thumb-apple.jpg);
+    transition: .25s;
+}
+
+a .thumbnail-previews {
+    margin: 0;
 }
