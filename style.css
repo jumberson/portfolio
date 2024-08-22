@@ -1,0 +1,14 @@
+/*Nav bar*/
+
+.nav-item a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+
+.nav-item a:hover {
+    color: #dcdbd7;
+    transition: .25s;
+}
