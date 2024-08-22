@@ -84,7 +84,7 @@ h5 {
 
     }
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         line-height: 2rem;
     }
     h5 {
@@ -96,7 +96,7 @@ h5 {
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 992px) {
     #hero {
         max-height: 360px;
     }
@@ -118,6 +118,43 @@ h5 {
 @media (max-width: 576px) {
     #hero {
         height: 280px;
+    }
+    
+}
+
+
+/*skills section*/
+
+#skills {
+    background-color: #000;
+    padding-bottom: 4rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+    line-height: 2.675rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+.super-title {
+    text-transform: uppercase;
+}
+
+i.icon {
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 720px) {
+    h2 {
+        margin-bottom: 3rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 1.5rem;
+    }
+    #skills {
+        padding-bottom: 3rem;
     }
     
 }
