@@ -178,6 +178,8 @@ i.icon {
     background-position: top center;
     padding-left: 0;
     padding-right: 0;
+    height: 50%;
+
 }
 
 .img-card.airbnb:hover {
@@ -191,9 +193,10 @@ i.icon {
 }
 
 .thumb-content {
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
     color: #333;
-    padding-bottom: auto;
 }
 
 .img-card.newsweek {
@@ -203,6 +206,8 @@ i.icon {
     background-position: top center;
     padding-left: 0;
     padding-right: 0;
+    height: 50%;
+
 }
 
 .img-card.newsweek:hover {
@@ -216,12 +221,23 @@ i.icon {
     background-position: top center;
     padding-left: 0;
     padding-right: 0;
+    height: 50%;
 }
 
 .img-card.apple:hover {
     background-image: url(./images/thumb-apple.jpg);
     transition: .25s;
 }
+
+.button-container {
+    margin-top: auto;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/*footer*/
 
 a .thumbnail-previews {
     margin: 0;
